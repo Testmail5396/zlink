@@ -40,7 +40,8 @@ export default function App() {
               <AppProvider>
                 <Layout>
                   <Routes>
-                    <Route path="/" element={<Dashboard />} />
+                    <Route path="/" element={<Navigate to="/designers" replace />} />
+                    <Route path="/dashboard" element={<Dashboard />} />
                     <Route path="/designers/*" element={<Designers />} />
                     <Route path="/links" element={<AllLinks />} />
                     <Route path="/shared" element={<SharedLinks />} />

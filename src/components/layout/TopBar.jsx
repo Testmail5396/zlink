@@ -97,7 +97,7 @@ export function TopBar() {
 
       {/* Nav */}
       <nav className="flex items-center gap-0.5 mr-auto">
-        <NavLink to="/" end className={navLinkClass}>
+        <NavLink to="/dashboard" className={navLinkClass}>
           Dashboard
         </NavLink>
         <NavLink to="/designers" className={navLinkClass}>

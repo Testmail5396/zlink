@@ -4,7 +4,7 @@ import { LayoutDashboard, Users, Link2, Settings, Sparkles, Menu, X } from "luci
 import { useApp } from "../../contexts/AppContext";
 
 const navItems = [
-  { to: "/",          icon: LayoutDashboard, label: "Dashboard", end: true },
+  { to: "/dashboard", icon: LayoutDashboard, label: "Dashboard", end: true },
   { to: "/designers", icon: Users,           label: "Designers" },
   { to: "/links",     icon: Link2,           label: "All Links" },
   { to: "/settings",  icon: Settings,        label: "Settings" },
